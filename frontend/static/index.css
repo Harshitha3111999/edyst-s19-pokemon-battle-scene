@@ -1,0 +1,75 @@
+.back{
+	background: url(background.jpg) no-repeat center;
+	display: flex;
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.p1{
+   width: 25%;
+   height: 13%;
+   margin: 2px;
+   border: 1px lightyellow solid; 
+   border-radius: 20px;
+   margin-top: 7px;
+   margin-left: 7px;
+}
+.p2{
+	width: 50%;
+	height:5%;
+	padding: 5px 0px 5px 0px;
+	margin-top: 15%;
+	border:1px khaki solid;
+	border-radius: 20px;
+}
+.p3{
+	width: 50%;
+	height:5%;
+	padding: 5px 0px 5px 0px;
+	border:1px khaki solid;
+	border-radius: 20px;
+	margin-top: -20%;
+	margin-left: 5%;
+}
+.c1{
+    margin-top: 20%;
+    -webkit-animation: myfirst 3s 2; 
+    -webkit-animation-direction: alternate-reverse; 
+    animation: myfirst 3s 2;
+    animation-direction: alternate-reverse;
+ }
+ @-webkit-keyframes myfirst {
+  0%   { right: 0px; top: 0px;}
+  50%  { right: 200px; top: 200px;}
+  100% { right: 0px; top: 0px;}
+}
+
+@keyframes myfirst {
+  0%   {right:  0px; top: 0px;}
+  50%  {right: 200px; top: 200px;}
+  100% {right:  0px; top: 0px;}
+}
+ .c2{
+    margin-top: 5%;
+    -webkit-animation: myfirs 3s 2; 
+    -webkit-animation-direction: alternate-reverse; 
+    animation: myfirs 3s 2;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+ }
+  @-webkit-keyframes myfirs {
+  0%   { left: 0px; bottom:  0px;}
+  50%  { left:  200px; bottom:  200px;}
+  100% { left:  0px; bottom:  0px;}
+}
+
+@keyframes myfirs {
+  0%   {left:   0px; bottom:  0px;}
+  50%  {left:  200px; bottom:  200px;}
+  100% {left:   0px; bottom: 0px;}
+}
